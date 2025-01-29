@@ -15,22 +15,22 @@ const Navbar = () => {
                 width={90}
                 height={90}
               />
-                 <ul>
+                 <ul className='nav_ul'>
                 
-                  <li><Link to="/">Home</Link>
+                  <li><Link to="/"  className='nav_content' >Home</Link>
 
                   </li>
-                  <li><Link to="/about">About</Link>
+                  <li><Link to="/about" className='nav_content'>About</Link>
 
                   </li>
                   <li>
-                  <Link to="/services">Services</Link>
+                  <Link to="/services" className='nav_content'>Services</Link>
 
                   </li>
-                  <li><Link to="/contact"> Contact</Link>
+                  <li><Link to="/contact" className='nav_content'> Contact</Link>
                    
                   </li>
-                  <li><Link to="/ImageSlider"> Gallery</Link>
+                  <li><Link to="/ImageSlider" className='nav_content'> Gallery</Link>
                    
                   </li>
                 </ul>
