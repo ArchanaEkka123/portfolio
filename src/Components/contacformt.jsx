@@ -42,6 +42,7 @@ const ContactForm = () => {
 
   return (
     <div className="p-6 max-w-lg mx-auto">
+       {/* <div className="form"> */}
       <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
       {submitted && (
         <div className="p-4 mb-4 text-green-700 bg-green-100 rounded">
