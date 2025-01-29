@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="">
                <img
                 class="icon"
-                src="/src/assets/image/A_logo.svg"
+                src="/images/A_logo.svg"
                 alt="Description of the image"
                 width={100}
                 height={100}
@@ -37,20 +37,20 @@ const Footer = () => {
           <a href="https://www.facebook.com/archana.ekka.77" className="social-icon">
           <img
                 class="icon"
-                src="/src/assets/image/facebook.svg"
+                src="/images/facebook.svg"
                 alt="Description of the image"
               />
 
           </a>
           <a href="https://www.linkedin.com/in/archana-ekka-99a563333/" className="social-icon"> <img
                 class="icon"
-                src="/src/assets/image/linkedin.svg"
+                src="/images/linkedin.svg"
                 alt="Description of the image"
               /></a>
           <a href="https://www.instagram.com/archanaekka00/" className="social-icon"> 
           <img
                 class="icon"
-                src="/src/assets/image/instagram.svg"
+                src="/images/instagram.svg"
                 alt="Description of the image"
               /></a>
         </div>

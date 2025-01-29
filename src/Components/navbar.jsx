@@ -10,7 +10,7 @@ const Navbar = () => {
                
               <img
                 class="nav_icon"
-                src="/src/assets/image/A_logo.svg"
+                src="/images/A_logo.svg"
                 alt="Description of the image"
                 width={90}
                 height={90}
