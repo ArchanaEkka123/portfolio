@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-
-// import "./ImageSlider.scss";
+ import "./ImageSlider.scss";
 
 //array of object
 function GridSlider() {
