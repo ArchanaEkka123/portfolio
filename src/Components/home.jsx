@@ -13,7 +13,7 @@ const Home = () => {
 
             <img
               className="myimage"
-              src="/images/img1.jpeg"
+              src="/images/image5.jpeg"
               
               alt="Description of the image"
             />
@@ -71,7 +71,7 @@ const Home = () => {
           <div className="card">
             <img
               className="card_image"
-              src="/images/image1.jpeg"
+              src="/images/card_image1.jpg"
               alt="Description of the image"
             />
             {/* <img src={MyImage1} alt="Description of Image" width={300} height={400} /> */}
@@ -85,7 +85,7 @@ const Home = () => {
           <div className="card">
             <img
               className="card_image"
-              src="/images/image2.jpeg"
+              src="/images/card_image8.jpg"
               alt="Norway"
             />
  {/* <img src={MyImage2} alt="Description of Image" width={300} height={400} /> */}
@@ -102,7 +102,7 @@ const Home = () => {
           <div className="card">
             <img
               className="card_image"
-              src="/images/image3.jpeg"
+              src="/images/card_image5.jpg"
               alt="Norway"
             />
 {/* <img src={MyImage3} alt="Description of Image" width={300} height={400} /> */}

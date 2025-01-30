@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
    
 <div className="nav">
-                <nav className="navbar">
+                <nav className="navbar">``
                
               <img
                 class="nav_icon"

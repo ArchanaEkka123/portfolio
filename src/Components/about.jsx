@@ -24,7 +24,7 @@ const About = () => {
             </div>
             <img
               className="card_image"
-              src="/images/image1.jpeg"
+              src="/images/card_image6.jpg"
               alt="Norway"
             />
           </div>
@@ -37,7 +37,7 @@ const About = () => {
             </div>
             <img
               className="card_image"
-              src="/images/image9.jpeg"
+              src="/images/card_image10.jpg"
               alt="Norway"
             />
           </div>
@@ -51,7 +51,7 @@ const About = () => {
             </div>
             <img
               className="card_image"
-              src="/images/image2.jpeg"
+              src="/images/card_image7.jpg"
               alt="Norway"
             />
           </div>

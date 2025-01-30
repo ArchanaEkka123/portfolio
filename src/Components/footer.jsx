@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="">
+        <div className="footer_logo">
                <img
                 class="icon"
                 src="/images/A_logo.svg"
@@ -36,22 +36,28 @@ const Footer = () => {
         
           <a href="https://www.facebook.com/archana.ekka.77" className="social-icon">
           <img
-                class="icon"
+                class="socials-icon"
                 src="/images/facebook.svg"
                 alt="Description of the image"
+                width={50}
+                height={50}
               />
 
           </a>
           <a href="https://www.linkedin.com/in/archana-ekka-99a563333/" className="social-icon"> <img
-                class="icon"
+                class="socials-icon"
                 src="/images/linkedin.svg"
                 alt="Description of the image"
+                width={50}
+                height={50}
               /></a>
           <a href="https://www.instagram.com/archanaekka00/" className="social-icon"> 
           <img
-                class="icon"
+                class="socials-icon"
                 src="/images/instagram.svg"
                 alt="Description of the image"
+                width={50}
+                height={50}
               /></a>
         </div>
       </div>
