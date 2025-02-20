@@ -62,7 +62,7 @@ const Contact = () => {
           </div>
         </div>
         <div class="left_sec">
-        <img src="/images/image7.jpeg" alt="Floating Image" 
+        <img src="/images/image3.jpeg" alt="Floating Image" 
           width={300}
           height={600}
           className=" myimage  rounded-lg shadow-lg transform transition-transform duration-300 ease-in-out hover:scale-110 "
