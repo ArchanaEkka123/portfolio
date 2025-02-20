@@ -1,13 +1,14 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import Navbar from "./Components/navbar";
+import "./App.css";
+// import Navbar from "./Components/navbar";
 import Home from "./Components/home";
 import About from "./Components/about";
-import Services from "./Components/services";
-import Contact from "./Components/contact";
+import Services from "./Components/services"
+
+import ContactForm from "./Components/contacform";
 import Footer from "./Components/footer";
-import ImageSlider from "./Components/ImageSlider";
+import Navbar from "./Components/navbar";
 const App = () => {
   return (
     <BrowserRouter>
@@ -16,8 +17,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/ImageSlider" element={<ImageSlider/>} />
+        <Route path="/contactform" element={<ContactForm />} />
+       
       </Routes>
       <Footer/>
     </BrowserRouter>

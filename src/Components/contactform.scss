@@ -8,6 +8,32 @@ $border-color: #d1d5db;  // Tailwind's gray-300
 $bg-color: #f3f4f6;      // Tailwind's gray-100
 $text-color: #1f2937;    // Tailwind's neutral text color
 
+.test {
+  display: flex;
+  flex-direction: column;
+  // padding: 50px;
+  // width: 800px;
+  background-color: #fdcbf1;
+  background-image: url("/src/assets/image/contactformbg2.jpg");
+  background-size: cover; // Options: contain, auto, or cover
+  background-position: center; // Adjust alignment
+  background-repeat: no-repeat;
+  
+  @media (max-width: 1000px) {
+    width: 500px;
+  }
+  @media (max-width: 700px) {
+    width: 300px;
+  }
+  @media (max-width: 500px) {
+    width: 200px;
+  }
+  @media (max-width: 300px) { 
+    width: 150px;
+  }
+}
+
+
 // Container
 .p-6 {
   padding: 1.5rem;

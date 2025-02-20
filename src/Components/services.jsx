@@ -2,16 +2,16 @@ import React from "react";
 import "./services.scss";
 const Services = () => {
   return (
-    <div id="root">
-      <div class="main">
-        <div class="main_inner">
+    // <div id="root">
+      <div class="main ">
+        <div class="main_inner p-10">
           <div>
-            <h1 class="line">Archana Ekka</h1>
+            <h1 class="text-black-900 text-4xl p-4 font-semibold">Archana Ekka</h1>
           </div>
 
           <div class="Services">
             <div class="Services_caintainer">
-              <h2 class="heading">Website Design and Development</h2>
+              <h2 class="text-black-900 text-2xl  font-semibold">Website Design and Development</h2>
               <p class="Description">
                 Building responsive and interactive websites that adapt to
                 different screen sizes (desktop, tablet, mobile). Ensuring a
@@ -20,7 +20,7 @@ const Services = () => {
               </p>
             </div>
             <div class="Services_caintainer">
-              <h2 class="heading">Web Application Development</h2>
+              <h2 class="text-black-900 text-2xl  font-semibold">Web Application Development</h2>
               <p class="Description">
                 Developing single-page applications (SPAs) using modern
                 JavaScript frameworks like React.js, Angular, or Vue.js.
@@ -30,32 +30,44 @@ const Services = () => {
             </div>
 
             <div class="Services_caintainer">
-              <h2 class="heading">Responsive and Mobile-First Design</h2>
+              <h2 class="text-black-900 text-2xl  font-semibold">Responsive and Mobile-First Design</h2>
               <p class="Description">
                 Creating layouts and designs optimized for mobile devices using
                 CSS frameworks like Bootstrap or Tailwind CSS. Implementing
                 flexible grid systems and media queries for responsiveness.
               </p>
             </div>
-          </div>
+          </div>  
 
           <div class="projects">
-            <h2> Projects</h2>
+            <h2 class="text-black-900 text-2xl  font-semibold"> Projects</h2>
             <div class="">
               <p>
-                Experteeth <a href="https://experteeth.in/">Experteeth</a>
+                <a href="https://experteeth.in/">Experteeth</a>
               </p>
             </div>
             <div class="">
               <p>
-                Travel-Planners{" "}
+               
                 <a href="https://travel-planners.co.in/">Travel-Planners</a>
+              </p>
+            </div>
+            <div class="">
+              <p>
+                
+                <a href="https://portfolio-478n.vercel.app/">Portfolio</a>
+              </p>
+            </div>
+            <div class="">
+              <p>
+                
+                <a href="https://tailwind-project-gamma-amber.vercel.app/">Portfolio-Tailwind</a>
               </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 
