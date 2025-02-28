@@ -21,6 +21,12 @@
     @media (max-width: 500px) {
       padding: 10px 60px;
     }
+    .line{
+      width: 100px;
+      height: 4px;
+      background-color: rgb(46, 179, 179);
+      margin-bottom: 5px;
+    }
     .Key_heading {
       display: flex;
       font-size: 26px;
@@ -53,7 +59,7 @@
 
     .content {
       display: flex;
-      width: 300px;
+      width: 700px;
       justify-content: center;
       align-items: center;
       text-align: center;
@@ -63,7 +69,25 @@
         width: 250px;
       }
     }
-
+    .heading-content{
+      padding-bottom: 20px;
+    }
+.card-holder{
+  width: 700px;
+  display: flex;
+ justify-content: space-around;
+.card{
+  width: 200px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+}
     .description {
       display: flex;
       color: #302b2b;

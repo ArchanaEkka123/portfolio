@@ -89,6 +89,33 @@ body {
         }
       }
     }
+    .button-holder{
+      display: flex;
+      margin-top: 20px;
+    }
+    .home-button1{
+      width: 150px;
+      height: 43px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: azure;
+      background-color: blueviolet;
+      border-radius: 20px;
+    }
+    .home-button2{
+      width: 150px;
+      height: 43px;
+      font: weight 700px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      border-width: 2px;
+      border-color: blueviolet;
+      border-radius: 20px;
+      margin-left: 20px;
+    }
   }
 }
 
@@ -100,6 +127,13 @@ body {
  justify-content: center;
  align-items: center;
   background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+
+  .line{
+    width: 150px;
+    height: 4px;
+    background-color: rgb(46, 179, 179);
+    margin-bottom: 5px;
+  }
   .Skills_card{
     width: 80%;
    justify-content: space-evenly;

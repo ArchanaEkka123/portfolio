@@ -10,14 +10,14 @@
   height: auto;
   .sec {
     display: flex;
-    flex-direction: row;
-    width: 90%;
+    flex-direction:column;
+   
     border-radius: 20px;
     background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
     height: auto;
-    justify-content:space-around;
+    justify-content:space-between;
   align-items: center;
-  padding-top: 30px;
+  
   padding-bottom: 30px;
     @media (max-width: 700px) {
       flex-direction: column;
@@ -26,12 +26,29 @@
     }
   }
 }
+.contact-content{
+  display: flex;
+justify-content: space-between;
+margin-top: 20px;
+width: 100%;
+.right_sec{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.contact-heading-name{
+  display: flex;
+  text-align: left;
+}
+}
 .contact_caintainer{
   display: flex;
   justify-content: left;
       align-items: center;
       gap: 10px;
 }
-.myimage{
-  border-radius: 20px;
+
+.contact-footer-socials{
+  display: flex;
 }

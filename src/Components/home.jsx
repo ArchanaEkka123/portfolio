@@ -2,6 +2,7 @@ import React from "react";
 import "./home.scss";
 import About from "./about";
 import Contact from "./contact";
+import Services from "./services";
 
 const Home = () => {
   return (
@@ -18,6 +19,11 @@ const Home = () => {
                 <p className="content">
                   I'm a frontend developer and work in Raipur Chhattishgarh
                 </p>
+                <div className="button-holder">
+                <button className="home-button1">Book a Meeting</button>
+                <button className="home-button2">Download CV</button>
+                </div>
+                
               </div>
             </div>
             <div className="left_sec">
@@ -32,10 +38,10 @@ const Home = () => {
 
         <About/>
         <div className="cardmain pb-10">
-          <h1 className="text-black-900 text-4xl p-4 font-semibold">
+          <h1 className="text-black-900 text-4xl pt-4 font-semibold">
             Technical Skills
           </h1>
-
+          <div className="line"></div>
           <div className="Skills_card">
             <div className="card">
               <div className="content">
@@ -111,6 +117,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <Services/>
         <Contact />
       </div>
     </div>

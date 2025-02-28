@@ -5,11 +5,12 @@ const Services = () => {
     // <div id="root">
       <div class="main ">
         <div class="main_inner p-10">
-          <div>
-            <h1 class="text-black-900 text-4xl p-4 font-semibold">Archana Ekka</h1>
+          <div className="services-heading">
+            <h1 class="text-black-900 text-4xl pt-4 font-semibold">Services</h1>
+            <div className="services-line"></div>
           </div>
 
-          <div class="Services">
+          {/* <div class="Services">
             <div class="Services_caintainer">
               <h2 class="text-black-900 text-2xl  font-semibold">Website Design and Development</h2>
               <p class="Description">
@@ -37,34 +38,72 @@ const Services = () => {
                 flexible grid systems and media queries for responsiveness.
               </p>
             </div>
-          </div>  
+          </div>   */}
 
-          <div class="projects">
-            <h2 class="text-black-900 text-2xl  font-semibold"> Projects</h2>
-            <div class="">
-              <p>
-                <a href="https://experteeth.in/">Experteeth</a>
-              </p>
+<div className="services-content-holder">
+<img
+          className="about_card_image rounded-md"
+          src="/images/card_image7.jpg"
+          alt="Norway"
+          width={500}
+          height={500}
+        />
+
+
+
+<div className="services-card-holder">
+            <div className="services-card">
+              <img
+                className="icon-1"
+                src="/images/design-icon1.png"
+                alt="Description of the image"
+                width={40}
+                height={40}
+              />
+              <p className="services-card-heading"> Web Design</p>
+              <p className="services-card-description"> Developing the User Interface (UI):</p>
             </div>
-            <div class="">
-              <p>
-               
-                <a href="https://travel-planners.co.in/">Travel-Planners</a>
-              </p>
+            <div className="services-card">
+              <img
+                className="icon-1"
+                src="/images/design-icon3.png"
+                alt="Description of the image"
+                width={40}
+                height={40}
+              />
+              <p className="services-card-heading"> Mobile App Design</p>
+              <p className="services-card-description"> Developing the User Interface (UI):</p>
             </div>
-            <div class="">
-              <p>
-                
-                <a href="https://portfolio-478n.vercel.app/">Portfolio</a>
-              </p>
+            <div className="services-card">
+              <img
+                className="icon-1"
+                src="/images/design-icon2.png"
+                alt="Description of the image"
+                width={40}
+                height={40}
+              />
+              <p className="services-card-heading">UI/UX Design </p>
+              <p className="services-card-description"> Developing the User Interface (UI):</p>
             </div>
-            <div class="">
-              <p>
-                
-                <a href="https://tailwind-project-gamma-amber.vercel.app/">Portfolio-Tailwind</a>
-              </p>
+            <div className="services-card">
+              <img
+                className="icon-1"
+                src="/images/design-icon1.png"
+                alt="Description of the image"
+                width={40}
+                height={40}
+              />
+              <p className="services-card-heading"> Brand Identity</p>
+              <p className="services-card-description"> Developing the User Interface (UI):</p>
             </div>
           </div>
+
+
+
+        </div>
+
+          
+          
         </div>
       </div>
     // </div>
