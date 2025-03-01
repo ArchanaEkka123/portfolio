@@ -5,6 +5,7 @@ const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    number: "",
     message: "",
   });
 
@@ -34,14 +35,14 @@ const ContactForm = () => {
     if (Object.keys(validationErrors).length === 0) {
       setSubmitted(true);
       console.log("Form Data Submitted:", formData);
-      setFormData({ name: "", email: "", message: "" });
+      setFormData({ name: "", email: "",number:"", message: "" });
     } else {
       setErrors(validationErrors);
     }
   };
 
   return (
-    <div className=" test rounded-lg p-10 max-w-lg mx-auto m-20">
+    <div className=" test rounded-lg p-10 max-w-lg mx-auto ">
        {/* <div className="form"> */}
       <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
       {submitted && (
@@ -50,7 +51,9 @@ const ContactForm = () => {
         </div>
       )}
       <form onSubmit={handleSubmit} className="space-y-4">
-        <div>
+
+        <div className="name-holder">
+        <div className="first-name">
           <label htmlFor="name" className="block text-sm font-medium">
             Name
           </label>
@@ -69,7 +72,31 @@ const ContactForm = () => {
           )}
         </div>
 
-        <div>
+        <div className="last-name">
+          <label htmlFor="name" className="block text-sm font-medium">
+           Last Name
+          </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            value={formData.name}
+            onChange={handleChange}
+            className={`w-full p-2 border ${
+              errors.name ? "border-red-500" : "border-gray-300"
+            } rounded`}
+          />
+          {errors.name && (
+            <p className="text-red-500 text-sm mt-1">{errors.name}</p>
+          )}
+        </div>
+
+        </div>
+       
+
+<div className="name-holder">
+
+<div className="email">
           <label htmlFor="email" className="block text-sm font-medium">
             Email
           </label>
@@ -88,7 +115,26 @@ const ContactForm = () => {
           )}
         </div>
 
-        <div>
+        <div className="number">
+          <label htmlFor="number" className="block text-sm font-medium">
+            Number
+          </label>
+          <input
+            type="number"
+            name="number"
+            id="number"
+            value={formData.number}
+            onChange={handleChange}
+            className={`w-full p-2 border ${
+              errors.number ? "border-red-500" : "border-gray-300"
+            } rounded`}
+          />
+          {errors.number && (
+            <p className="text-red-500 text-sm mt-1">{errors.number}</p>
+          )}
+        </div>
+</div>
+              <div>
           <label htmlFor="message" className="block text-sm font-medium">
             Message
           </label>
@@ -108,7 +154,7 @@ const ContactForm = () => {
 <div className="form_button" >
     <button
           type="submit"
-          className="w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700"
+          className="w-full bg-purple-600 text-white p-2 rounded "
         >
           Submit
         </button></div>

@@ -23,8 +23,7 @@ const Home = () => {
                 <button className="home-button1">Book a Meeting</button>
                 <button className="home-button2">Download CV</button>
                 </div>
-                
-              </div>
+                 </div>
             </div>
             <div className="left_sec">
               <img
@@ -38,7 +37,7 @@ const Home = () => {
 
         <About/>
         <div className="cardmain pb-10">
-          <h1 className="text-black-900 text-4xl pt-4 font-semibold">
+          <h1 className="cardmain_heading text-black-900 text-4xl pt-4 font-semibold">
             Technical Skills
           </h1>
           <div className="line"></div>

@@ -2,14 +2,14 @@ import React from "react";
 import "./contact.scss";
 import ContactForm from "./contacform";
 
-import { motion } from "framer-motion";
+
 
 const Contact = () => {
   return (
     <div class="contact_main">
       <div class="sec">
       <div className="services-heading">
-            <h1 class="text-black-900 text-4xl pt-4 font-semibold">Services</h1>
+            <h1 class="text-black-900 text-4xl pt-4 font-semibold">Contact Us</h1>
             <div className="services-line"></div>
           </div>
 
@@ -112,11 +112,11 @@ const Contact = () => {
       </div>
           </div>
         </div>
-        <div class="left_sec w-lg">
-        <div class="test rounded-md">
-        <ContactForm />
-      </div>
-        </div>
+        
+        {/* <div class="rounded-md"> */}
+       <ContactForm />
+        {/* </div>
+        */}
 
           </div>
        
