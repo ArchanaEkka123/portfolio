@@ -1,11 +1,23 @@
 import React from "react";
 import "./about.scss";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
     <div className="about_cardmain p-8">
       <div className="about_heading">
-        <h1 className="about_heading_top text-black-900 text-4xl pt-4 font-semibold">About Me</h1>
+        <motion.div
+          className="text-3xl font-bold"
+          initial={{ rotate: -90, opacity: 0 }}
+          whileInView={{ rotate: 0, opacity: 1 }}
+          transition={{ duration: 0.8 }}
+        >
+          <h1 className="about_heading_top  text-black-900 text-4xl pt-4 font-semibold animate-zoomIn">
+            About Me
+          </h1>
+        </motion.div>
+
+        {/* about_heading_top */}
         <div className="line"></div>
         <p className="sub_heading">
           A frontend developer specializes in building the user-facing part of
@@ -14,14 +26,18 @@ const About = () => {
       </div>
 
       <div className="about_card p-4 ">
-        <div className="about_card_image_box">
-          <img
+      
+<div className="about_card_image_box">
+
+<img
             className="about_card_image mb-4 hover:animate-spin"
             src="/images/card_image7.jpg"
             alt="Norway"
             width={400}
             height={400}
           />
+
+          
         </div>
 
         <div className="content">

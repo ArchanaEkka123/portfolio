@@ -93,7 +93,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  
+  gap: 30px;
     //padding: 100px;
     .services-card {
       width: 200px;
@@ -109,6 +109,8 @@
       .services-card-description {
         display: flex;
         text-align: center;
+        // font-size: 15px;
+        // font-weight: 100;
       }
     }
   }
