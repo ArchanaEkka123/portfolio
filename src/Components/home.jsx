@@ -26,21 +26,19 @@ const Home = () => {
               </div>
             </div>
             <div className="left_sec">
-            {/* Zoom & Pop! */}
-            <motion.div
-  className="text-3xl font-bold"
-  initial={{ scale: 0.5, opacity: 0 }}
-  whileInView={{ scale: 1, opacity: 1 }}
-  transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
->
-  
-  <img
-                className="myimage hover:animate-pulse"
-                src="/images/myImage.jpg"
-                alt="Description of the image"
-              />
-</motion.div>
-              
+              {/* Zoom & Pop! */}
+              <motion.div
+                className="text-3xl font-bold"
+                initial={{ scale: 0.5, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
+              >
+                <img
+                  className="myimage hover:animate-pulse"
+                  src="/images/myImage.jpg"
+                  alt="Description of the image"
+                />
+              </motion.div>
             </div>
           </div>
         </div>
@@ -66,11 +64,18 @@ const Home = () => {
                   <b>HTML</b>
                 </p>
               </div>
-              <img
-                className="card_image transform transition-transform duration-300 ease-in-out hover:scale-110 "
-                src="/images/card_image1.jpg"
-                alt="Description of the image"
-              />
+              <motion.div
+                className=""
+                initial={{ scale: 0.5, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
+              >
+                <img
+                  className="card_image transform transition-transform duration-300 ease-in-out hover:scale-110 "
+                  src="/images/card_image1.jpg"
+                  alt="Description of the image"
+                />
+              </motion.div>
             </div>
             <div className="card">
               <div className="content">
@@ -78,11 +83,18 @@ const Home = () => {
                   <b>React</b>
                 </p>
               </div>
-              <img
-                className="card_image transform transition-transform duration-300 ease-in-out hover:scale-110 w-full h-auto"
-                src="/images/card_image8.jpg"
-                alt="Norway"
-              />
+              <motion.div
+                className="text-3xl font-bold"
+                initial={{ scale: 0.5, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
+              >
+                <img
+                  className="card_image transform transition-transform duration-300 ease-in-out hover:scale-110 w-full h-auto"
+                  src="/images/card_image8.jpg"
+                  alt="Norway"
+                />
+              </motion.div>
             </div>
             <div className="card">
               <div className="content">
@@ -90,11 +102,18 @@ const Home = () => {
                   <b>CSS</b>
                 </p>
               </div>
-              <img
-                className="card_image transform transition-transform duration-300 ease-in-out hover:scale-110 w-full h-auto"
-                src="/images/card_image5.jpg"
-                alt="Norway"
-              />
+              <motion.div
+                className="text-3xl font-bold"
+                initial={{ scale: 0.5, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
+              >
+                <img
+                  className="card_image transform transition-transform duration-300 ease-in-out hover:scale-110 w-full h-auto"
+                  src="/images/card_image5.jpg"
+                  alt="Norway"
+                />
+              </motion.div>
             </div>
             <div className="card">
               <div className="content">
@@ -102,11 +121,18 @@ const Home = () => {
                   <b>Tailwind</b>
                 </p>
               </div>
-              <img
-                className="card_image transform transition-transform duration-300 ease-in-out hover:scale-110 w-full h-auto"
-                src="/images/card_image3.jpg"
-                alt="Description of the image"
-              />
+              <motion.div
+                className="text-3xl font-bold"
+                initial={{ scale: 0.5, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
+              >
+                <img
+                  className="card_image transform transition-transform duration-300 ease-in-out hover:scale-110 w-full h-auto"
+                  src="/images/card_image3.jpg"
+                  alt="Description of the image"
+                />
+              </motion.div>
             </div>
             <div className="card">
               <div className="content">
@@ -114,11 +140,18 @@ const Home = () => {
                   <b>Node.js</b>
                 </p>
               </div>
-              <img
-                className="card_image transform transition-transform duration-300 ease-in-out hover:scale-110 w-full h-auto"
-                src="/images/card_image11.jpg"
-                alt="Norway"
-              />
+              <motion.div
+                className="text-3xl font-bold"
+                initial={{ scale: 0.5, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
+              >
+                <img
+                  className="card_image transform transition-transform duration-300 ease-in-out hover:scale-110 w-full h-auto"
+                  src="/images/card_image11.jpg"
+                  alt="Norway"
+                />
+              </motion.div>
             </div>
             <div className="card">
               <div className="content">
@@ -126,11 +159,18 @@ const Home = () => {
                   <b>JavaScript</b>
                 </p>
               </div>
-              <img
-                className="card_image transform transition-transform duration-300 ease-in-out hover:scale-110 w-full h-auto"
-                src="/images/card_image4.jpg"
-                alt="Norway"
-              />
+              <motion.div
+                className="text-3xl font-bold"
+                initial={{ scale: 0.5, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
+              >
+                <img
+                  className="card_image transform transition-transform duration-300 ease-in-out hover:scale-110 w-full h-auto"
+                  src="/images/card_image4.jpg"
+                  alt="Norway"
+                />
+              </motion.div>
             </div>
           </div>
         </div>
