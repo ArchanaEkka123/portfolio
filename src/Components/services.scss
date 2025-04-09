@@ -1,24 +1,17 @@
-.main {
+
+
+  .services-main {
   display: flex;
+  width: 100vw;
   align-items: center;
   justify-content: center;
-
-  .main_inner {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    border-radius: 20px;
-    // background-color: rgb(223, 199, 216);
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    //   background-image:url('/src/assets/image/bg3.jpg');
-    //   background-size: cover; // Options: contain, auto, or cover
-    // background-position: center; // Adjust alignment
-    // background-repeat: no-repeat;
+  flex-wrap: wrap;
+  height: auto;
+  gap: 20px;
+  padding-bottom: 20px;
+    
   }
-}
+
 .services-heading {
   display: flex;
   flex-direction: column;
@@ -43,37 +36,15 @@
   }
 }
 
-.Services {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  .Services_caintainer {
-    display: flex;
-    // gap: 20px;
-    flex-direction: column;
-    .heading {
-      display: flex;
-      font-size: 20px;
-      color: black;
-    }
-    .Description {
-      display: flex;
-      color: black;
-      @media (max-width: 400px) {
-        display: flex;
-        width: 80%;
-      }
-    }
-  }
-}
+
 
 .services-content-holder {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  width:100%;
+   width:100%;
+  
   .services_card_image_box {
     display: flex;
     width: 400px;

@@ -5,8 +5,13 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
+
+    <div className="main_outter">
+      <div className="main">
     <div class="contact_main">
-      <div class="sec">
+
+      <div className="contact_inner">
+      <div class="contact-sec">
         <div className="services-heading">
           {/* Rotating into view! */}
           <motion.div
@@ -136,11 +141,13 @@ const Contact = () => {
            */}
         </div>
       </div>
-      {/* <div class="test rounded-md">
-        <ContactForm />
-      </div> */}
+      </div>
+      
+      
+    </div>
+    </div>
     </div>
   );
-};
+}; 
 
 export default Contact;

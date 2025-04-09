@@ -3,9 +3,8 @@ import "./services.scss";
 import { motion } from "framer-motion";
 const Services = () => {
   return (
-    // <div id="root">
-    <div class="main ">
-      <div class="main_inner p-10">
+        
+      <div class="services-main p-8">
         <div className="services-heading">
           <motion.div
             className="text-3xl font-bold"
@@ -113,8 +112,8 @@ const Services = () => {
           </motion.div>
         </div>
       </div>
-    </div>
-    // </div>
+    
+    
   );
 };
 

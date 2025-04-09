@@ -19,23 +19,23 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="hover:animate-bounce text-black-900 text-4xl font-semibold">
-            <Link to="/" className="nav_content  ">
+            <Link to="/about" className="nav_content  ">
               About Me
             </Link>
           </li>
           <li className="hover:animate-bounce text-black-900 text-4xl font-semibold">
-            <Link to="/" className="nav_content  ">
+            <Link to="/services" className="nav_content  ">
               Services
             </Link>
           </li>
           <li className="hover:animate-bounce text-black-900 text-4xl font-semibold">
-            <Link to="/serviceS" className="nav_content">
+            <Link to="/projects" className="nav_content">
               Projects
             </Link>
           </li>
 
           <li className="hover:animate-bounce text-black-900 text-4xl font-semibold">
-            <Link to="/contactform" className="nav_content">
+            <Link to="/contact" className="nav_content">
               {" "}
               Contact
             </Link>

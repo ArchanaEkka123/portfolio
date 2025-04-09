@@ -44,7 +44,7 @@ const Footer = () => {
               />
 
           </a>
-          <a href="https://www.linkedin.com/in/archana-ekka-99a563333/" className="social-icon"> <img
+          <a href="https://www.linkedin.com/in/archana-ekka-53b709114/" className="social-icon"> <img
                 class="socials-icon"
                 src="/images/linkedin.svg"
                 alt="Description of the image"

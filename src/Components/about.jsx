@@ -26,18 +26,14 @@ const About = () => {
       </div>
 
       <div className="about_card p-4 ">
-      
-<div className="about_card_image_box">
-
-<img
+        <div className="about_card_image_box">
+          <img
             className="about_card_image mb-4 hover:animate-spin"
             src="/images/card_image7.jpg"
             alt="Norway"
             width={400}
             height={400}
           />
-
-          
         </div>
 
         <div className="content">

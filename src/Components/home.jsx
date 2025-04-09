@@ -35,7 +35,7 @@ const Home = () => {
               >
                 <img
                   className="myimage hover:animate-pulse"
-                  src="/images/myImage.jpg"
+                  src="/images/My-Image.jpeg"
                   alt="Description of the image"
                 />
               </motion.div>

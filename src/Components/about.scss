@@ -1,15 +1,13 @@
 .about_cardmain {
   display: flex;
   width: 100%;
-  //border-radius: 20px;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   height: auto;
   gap: 20px;
   padding-bottom: 20px;
-  // background-color: rgb(235, 234, 234);
-  // background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+ 
   .about_heading {
     display: flex;
     flex-direction: column;
